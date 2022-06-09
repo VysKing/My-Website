@@ -1,0 +1,19 @@
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background: #1a1a1a;
+  font-family: 'Open Sans', sans-serif;
+  color: #efefef;
+}
+
+@media only screen and (max-width: 867px) {
+  body {
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+  }
+}
